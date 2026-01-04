@@ -1,0 +1,61 @@
+{
+  "title": "TempCalc",
+  "config": {
+    "step": {
+      "user": {
+        "title": "TempCalc Einrichtung",
+        "description": "Konfiguriere Innen- und optionale Außensensoren.",
+        "data": {
+          "indoor_temperature_sensor": "Innensensor Temperatur",
+          "indoor_humidity_sensor": "Innensensor Luftfeuchtigkeit",
+          "outdoor_temperature_sensor": "Außensensor Temperatur (optional)",
+          "outdoor_humidity_sensor": "Außensensor Luftfeuchtigkeit (optional)",
+          "enable_absolute_humidity": "Absolute Feuchte aktivieren",
+          "enable_mold_index": "Schimmelindex aktivieren",
+          "enable_dew_point": "Taupunkt aktivieren",
+          "enable_enthalpy": "Enthalpie aktivieren",
+          "enable_ventilation_recommendation": "Lüftungsempfehlung aktivieren",
+          "enable_ventilation_duration": "Lüftungsdauer aktivieren"
+        }
+      },
+      "options": {
+        "title": "TempCalc Optionen",
+        "description": "Sensor-Auswahl und Berechnungsoptionen anpassen.",
+        "data": {
+          "indoor_temperature_sensor": "Innensensor Temperatur",
+          "indoor_humidity_sensor": "Innensensor Luftfeuchtigkeit",
+          "outdoor_temperature_sensor": "Außensensor Temperatur (optional)",
+          "outdoor_humidity_sensor": "Außensensor Luftfeuchtigkeit (optional)",
+          "enable_absolute_humidity": "Absolute Feuchte aktivieren",
+          "enable_mold_index": "Schimmelindex aktivieren",
+          "enable_dew_point": "Taupunkt aktivieren",
+          "enable_enthalpy": "Enthalpie aktivieren",
+          "enable_ventilation_recommendation": "Lüftungsempfehlung aktivieren",
+          "enable_ventilation_duration": "Lüftungsdauer aktivieren"
+        }
+      }
+    }
+  },
+  "entity": {
+    "sensor": {
+      "absolute_humidity": {
+        "name": "Absolute Feuchte"
+      },
+      "dew_point": {
+        "name": "Taupunkt"
+      },
+      "enthalpy": {
+        "name": "Enthalpie"
+      },
+      "mold_index": {
+        "name": "Schimmelindex"
+      },
+      "ventilation_recommendation": {
+        "name": "Lüftungsempfehlung"
+      },
+      "ventilation_duration": {
+        "name": "Lüftungsdauer"
+      }
+    }
+  }
+}
